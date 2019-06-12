@@ -13,7 +13,7 @@ app.use(cors());
 app.use(useragent.express());
 app.use('/public', express.static('public'));
 
-app.listen(portNumber, (req, res) => {
+app.listen(portNumber, () => {
   console.log(`we live at port: ${portNumber}!`)
 })
 
