@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  top: 0;
+  display: flex
+  position: absolute;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+div {
+  padding: 10px;
+}
+
+code {
+  font-family: monospace
+  font-size: 10px;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}

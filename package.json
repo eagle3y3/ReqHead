@@ -1,11 +1,27 @@
 {
   "name": "reqhead",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get the IP address, preferred languages (from header Accept-Language) and system infos (from header User-Agent) for my device.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lester Hairston",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagle3y3/ReqHead.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eagle3y3/ReqHead/issues"
+  },
+  "homepage": "https://github.com/eagle3y3/ReqHead#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.12",
+    "nodemon": "^1.19.1",
+    "user-agent": "^1.0.4"
+  }
 }
