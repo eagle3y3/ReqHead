@@ -9,14 +9,6 @@
   },
   "author": "Lester Hairston",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eagle3y3/ReqHead.git"
-  },
-  "bugs": {
-    "url": "https://github.com/eagle3y3/ReqHead/issues"
-  },
-  "homepage": "https://github.com/eagle3y3/ReqHead#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
