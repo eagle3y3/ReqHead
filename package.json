@@ -4,7 +4,8 @@
   "description": "Get the IP address, preferred languages (from header Accept-Language) and system infos (from header User-Agent) for my device.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
   },
   "author": "Lester Hairston",
   "license": "ISC",
@@ -25,5 +26,4 @@
     "user-agent": "^1.0.4",
     "webpack": "^4.33.0"
   },
-  "start" : "node index.js"
 }
